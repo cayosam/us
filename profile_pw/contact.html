@@ -8,20 +8,68 @@
     <title>Contact Us</title>
     <!-- Bootstrap -->
     <link href="assets/css/bootstrap.css" rel="stylesheet">
-    <link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet">
-    <link href="assets/css/form.css" rel="stylesheet">
-    <link href="assets/css/timeline.css" rel="stylesheet">
-    <link href="assets/css/main.css" rel="stylesheet">
+    <!--<link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet">-->
+    <<!--link href="assets/css/form.css" rel="stylesheet">-->
+    <!--<link href="assets/css/timeline.css" rel="stylesheet">-->
+    <link href="assets/css/profile_tmp.css" rel="stylesheet">
     <link href="assets/css/profile.css" rel="stylesheet">
-    <link rel="styleseet" type="text/css" href="assets/css/bootstrap.css">
+    <!--<link rel="styleseet" type="text/css" href="assets/css/bootstrap.css">-->
+
+<script>
+      var map;
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: -34.397, lng: 150.644},
+          zoom: 8
+        });
+      }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAL3qe_lcSnHCs7ENLJM9sMEHnxNABZb04&callback=initMap"
+    async defer></script>
+
+
 </head>
+
+
+
+<style>
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+        /*height: 100%;*/
+        height:250px;
+        width: 250px;
+        border-radius: 50%;
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  </head>
+  <body>
+
+
+
+
+
+
+
+
+
+
+
+
 
   <body>
     <div class="container">
       <div class="row">
         <div class="col-xs-4">
-        <section>
-        <img src="https://res.cloudinary.com/lenadi07/image/upload/v1466697668/3_wtc6if.png" width="250" height="250"  />
+        <section>    <div id="map"></div>
+
+        <!--<img src="https://res.cloudinary.com/lenadi07/image/upload/v1466697668/3_wtc6if.png" width="250" height="250"  />-->
         </div>
 
         <div class="col-xs-6">
@@ -63,3 +111,4 @@
       </div>
     </div>
   </body>
+  </html>
