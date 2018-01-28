@@ -14,6 +14,8 @@
     <link href="assets/css/profile_tmp.css" rel="stylesheet">
     <link href="assets/css/profile.css" rel="stylesheet">
     <!--<link rel="styleseet" type="text/css" href="assets/css/bootstrap.css">-->
+    <link rel="stylesheet" href="../post_map/assets/css/navi.css" />
+    <link rel="stylesheet" href="../post_map/assets/css/hero.css" />
 
 <script>
       var map;
@@ -45,21 +47,31 @@
         padding: 0;
       }
     </style>
-  </head>
-  <body>
+    <!-- header -->
 
+</head>
+<body>
 
+<header>
+    <div class=" topnav" id="myTopnav">
+      <a class="navbar-brand logo" href="#"></a>
+      <a href="#">Logout</a>
+      <a href="#">Contact</a>
+      <a href="#">MyPage</a>
+      <a class="active" href="#">POST</a>
+      <a href="#">*MAP*</a>
+      <a href="javascript:void(0);" style="font-size:30px;" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+</header>
 
+  <div class="container">
+    <div class="row">
+    <section>
 
-  <body>
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-4">
-        <section>
-            <div id="map"></div>
-
-        <!--<img src="https://res.cloudinary.com/lenadi07/image/upload/v1466697668/3_wtc6if.png" width="250" height="250"  />-->
-        </div>
+      <div class="col-xs-4">
+      <div id="map"></div>
+             <!--<img src="https://res.cloudinary.com/lenadi07/image/upload/v1466697668/3_wtc6if.png" width="250" height="250"  />-->
+      </div>
 
         <div class="col-xs-6">
         <form method="post" action="" class="form-horizontal" role="form" enctype="multipart/form-data">
@@ -97,7 +109,21 @@
         </form>
         </div>
         </section>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-2"></div>
+          <div class="col-sm-8 webscope">
+            <span class="webscope-text"> The world view by </span>
+            <a href=""> <img src="../img/logo/logo04.png"/> </a>
+          </div>
+        <div class="col-sm-2"></div>
       </div>
     </div>
+  </div>
+
   </body>
   </html>
