@@ -7,15 +7,17 @@
 
     <title>Contact Us</title>
     <!-- Bootstrap -->
-    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
     <!--<link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet">-->
     <!--link href="assets/css/form.css" rel="stylesheet">-->
     <!--<link href="assets/css/timeline.css" rel="stylesheet">-->
-    <link href="assets/css/profile_tmp.css" rel="stylesheet">
+    <link href="css/profile_tmp.css" rel="stylesheet">
     <link href="assets/css/profile.css" rel="stylesheet">
     <!--<link rel="styleseet" type="text/css" href="assets/css/bootstrap.css">-->
-    <link rel="stylesheet" href="../post_map/assets/css/navi.css" />
-    <link rel="stylesheet" href="../post_map/assets/css/hero.css" />
+    
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/navi.css" />
+    <link rel="stylesheet" href="css/hero.css" />
 
 <script>
       var map;
@@ -61,12 +63,15 @@
 <body>
 
 <header>
+   
+   <a class="navbar-brand logo" href="#"></a>
+   
     <div class=" topnav" id="myTopnav">
-      <a class="navbar-brand logo" href="#"></a>
+      
       <a href="#">Logout</a>
-      <a href="#">Contact</a>
+      <a class="active" href="#">Contact</a>
       <a href="#">MyPage</a>
-      <a class="active" href="#">POST</a>
+      <a href="#">POST</a>
       <a href="#">*MAP*</a>
       <a href="javascript:void(0);" style="font-size:30px;" class="icon" onclick="myFunction()">&#9776;</a>
     </div>
@@ -111,10 +116,12 @@
             <textarea name="message" class="form-control" placeholder="Enter Your Message" value="" rows="10" cols="100"></textarea>
           </div>
           </div>
-          <div class="submit_button">
+           </form>
+          
+          <div class="submit_button form-group">
           <input type="submit" class="btn btn-default" value="Send Email">
           </div>
-        </form>
+       
         </div>
         </section>
     </div>
@@ -126,12 +133,13 @@
         <div class="col-sm-2"></div>
           <div class="col-sm-8 webscope">
             <span class="webscope-text"> The world view by </span>
-            <a href=""> <img src="../img/logo04.png"/> </a>
+            <a href=""> <img src="img/logo04.png"/> </a>
           </div>
         <div class="col-sm-2"></div>
       </div>
     </div>
   </div>
 
+ <script src="js/navi.js"> </script>
   </body>
   </html>
