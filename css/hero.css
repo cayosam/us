@@ -487,7 +487,11 @@ ul {
     padding-top: 20px;
     padding-bottom: 20px;
     margin: 0;
-    
+
+    position: absolute;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
 }
 
 .webscope-text {
