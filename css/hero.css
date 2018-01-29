@@ -21,7 +21,7 @@ body {
 .hero-background {
     overflow: hidden;
     position: relative;
-   
+
 }
 
 .bold {
@@ -49,12 +49,12 @@ body {
 .navbar-brand{
     background: url("../img/logo04.png") no-repeat left center;
   background-size: contain;
-  
+
   width: 40%;
 }
 
 .logo {
-   
+
     max-width: 120px;
     padding-left: 0;
     position: absolute;
@@ -488,10 +488,7 @@ ul {
     padding-bottom: 20px;
     margin: 0;
 
-    position: absolute;
-    bottom: 0;
-    height: 100px;
-    width: 100%;
+  
 }
 
 .webscope-text {
