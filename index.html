@@ -32,14 +32,33 @@
 <script type="text/javascript" src="assets/js/autoConfirm.js"></script> -->
 </head>
 
+
 <body>
 
 <!-- Navigation
     ================================================== -->
+
 <div class="hero-background">
    <div>
       <img class="strips" src="worldmap.png">
 <!--         <img class="strips" src="assets/images/strips.png">-->
+
+  <header>
+   
+       <a class="navbar-brand logo" href="#"></a>
+       
+    <div class=" topnav" id="myTopnav">
+      <a href="#">Logout</a>
+       <a href="#">Contact</a>
+       <a href="#">MyPage</a>
+       <a class="active" href="#">POST</a>
+       <a href="#">*MAP*</a>
+       <a href="javascript:void(0);" style="font-size:30px;" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+  
+  </header>            
+            
+
    </div>
       <div class="container">
         <div class="header-container header">
@@ -48,13 +67,8 @@
 <!--            ロゴの画面-->
             <img class="logo" src="image/logo04.png"/> 
           </a>
+
             
-            
-            <div class="header-right">
-              <a class="navbar-item" href="#team">お問い合せ</a>
-              <a class="navbar-item" href="#pricing">マイページ</a>
-                
-            </div>
         </div>
         <!--navigation-->
 
@@ -75,10 +89,10 @@
             <div class="col-sm-6 col-sm-6 ">
 <!--                <img class="ipad-screen img-responsive" src="assets/images/screen.png"/>-->
                   <div class="loginpanel">
-                    <div class="txt">
-                      <input id="user" type="text" placeholder="Username" />
-                        <label for="user" class="entypo-user"></label>
-                    </div>
+                  <div class="txt">
+                  <input id="user" type="text" placeholder="E-mail" />
+                  <label for="user" class="entypo-mail"></label>
+                  </div>
                       <div class="txt">
                         <input id="pwd" type="password" placeholder="Password" />
                           <label for="pwd" class="entypo-lock"></label>
@@ -140,6 +154,11 @@
 
   <div class="txt">
     <input id="pwd" type="password" placeholder="Password" />
+    <label for="pwd" class="entypo-lock"></label>
+  </div>
+
+    <div class="txt">
+    <input id="pwd" type="password" placeholder="Confirm Password" />
     <label for="pwd" class="entypo-lock"></label>
   </div>
 
