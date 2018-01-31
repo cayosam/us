@@ -895,7 +895,7 @@ div.loginpanel {
   width: 100%;
   max-width: 500px;
   padding: 20px;
-  margin-top: 200px;
+  margin-top: 300px;
   /*margin: 0 auto;*/
   position: relative;
   top: 50%;
@@ -1253,7 +1253,7 @@ div.kaiintouroku {
   width: 100%;
   max-width: 500px;
   padding: 20px;
-  margin-top: 200px;
+  margin-top: 300px;
   /*margin: 0 auto;*/
   position: relative;
   top: 50%;
@@ -1602,11 +1602,11 @@ div.kaiintouroku div.hr div:last-child {
 
 
 div.kaiintouroku2 {
-  
+  height: 500px;
   width: 100%;
   max-width: 500px;
   padding: 20px;
-  margin-top: 200px;
+  margin-top: 300px;
   /*margin: 0 auto;*/
   position: relative;
   top: 50%;
