@@ -1,8 +1,9 @@
 $(document).ready(function(){
  
   //デフォルトで表示する要素を指定
- 
-  $('.loginpanel').hide();
+
+  $('.hero-btn').hide(); 
+  $('.loginpanel').show();
   $('.kaiintouroku').hide();
   $('.kaiintouroku2').hide();
 
