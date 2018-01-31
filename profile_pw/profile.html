@@ -99,9 +99,6 @@
                   <!-- 投稿日時 -->
                   <a href="#">[2018-01-25]</a><br>
                   <input type="button" value="削除" onclick="window.alert('こちらの投稿を削除しますがよろしいですか？')">
-                  <sclipt type="text/javascript">
-
-                  </sclipt>
                   <br><br>
               </form>
         </div>
@@ -123,10 +120,14 @@
                   <a href="#">バングラデシュ</a>
                   <!-- 投稿日時 -->
                   <a href="#">[2018-01-25]</a><br>
-                  <input type="button" value="削除" onclick="window.alert('こちらの投稿を削除しますがよろしいですか？')">
-                  <sclipt type="text/javascript">
 
-                  </sclipt>
+
+
+
+                  <div>
+                  <input type="button" value="削除" onclick="window.alert('こちらの投稿を削除しますがよろしいですか？')">
+                　</div>
+
                   <br><br>
               </form>
         </div>
@@ -150,9 +151,6 @@
                   <!-- 投稿日時 -->
                   <a href="#">[2018-01-25]</a><br>
                   <input type="button" value="削除" onclick="window.alert('こちらの投稿を削除しますがよろしいですか？')">
-                  <sclipt type="text/javascript">
-
-                  </sclipt>
                   <br><br>
               </form>
             </div>
@@ -175,6 +173,19 @@
       </div>
     </div>
   </div>
+
+
+<script>
+  var delete_check = confirm("こちらの投稿を削除しますがよろしいですか？");
+    console.log(answer);
+
+    if(answer == true){
+          console.log("true時delete");
+    }else{
+          console.log("false時もどる");
+    }
+</script>
+
 
 </body>
 </html>
