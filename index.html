@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Nova Theme</title>
     <meta name="Nova theme" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+<!--    <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>-->
 
 <!--
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
@@ -17,7 +17,7 @@
 
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
           rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/hero.css"/>
     <link rel="stylesheet" href="css/responsive.css"/>
      <link rel="stylesheet" href="css/login.css"/>
 
@@ -25,6 +25,7 @@
     
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+     
 
 <!-- Ryo added -->
 <!-- <script type="text/javascript" src="assets/js/jquery-1.7.2.min.js"></script> -->
@@ -39,7 +40,7 @@
     ================================================== -->
 
 <div class="hero-background">
-   <div>
+   
       <img class="strips" src="worldmap.png">
 <!--         <img class="strips" src="assets/images/strips.png">-->
 
@@ -61,15 +62,7 @@
 
    </div>
       <div class="container">
-        <div class="header-container header">
-          <a class="navbar-brand logo" href="img/logo04.png"> 
-            
-<!--            ロゴの画面-->
-            <img class="logo" src="image/logo04.png"/> 
-          </a>
-
-            
-        </div>
+        
         <!--navigation-->
 
         <!-- Hero-Section
@@ -82,7 +75,7 @@
                 the view of the world. </h4>
                
 <!--                    <button class="hero-btn" id="popup" onclick="div_show()"> Enter</button>-->
-                    <button class="hero-btn" > Enter</button>
+<!--                    <button class="hero-btn" > Enter</button>-->
                 
             </div><!--hero-left-->
 
@@ -235,8 +228,21 @@
 <!-- Footer
   ================================================== -->
 
-<div class="footer">
-</div>
+
+
+ <div id="footer" class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-2"></div>
+          <div class="col-sm-8 webscope">
+            <span class="webscope-text"> The world view by </span>
+            <a href=""> <img src="img/logo04.png"/> </a>
+          </div>
+        <div class="col-sm-2"></div>
+      </div>
+    </div>
+  </div>
+
 <!--footer-->
 
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"
@@ -244,6 +250,8 @@
         crossorigin="anonymous"></script>
         
         <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+<script src="js/navi.js"> </script>
 
 <script src="js/login.js"></script>
 <script src="js/script.js"></script>
