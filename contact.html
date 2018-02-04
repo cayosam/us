@@ -20,12 +20,18 @@
     <link rel="stylesheet" href="css/navi.css" />
     <link rel="stylesheet" href="css/hero.css" />
 
+
 <script>
+    //Google Maps
+    //initMapでMapを作っている
       var map;
+      var randomLat = Math.random()*140 - 70;
+      var randomLng = Math.random()*360 - 180;
       function initMap() {
         map = new google.maps.Map(document.getElementById('map'), {
-          center: {lat: -34.397, lng: 150.644},
-          zoom: 8
+          //center: {lat: -34.397, lng: 150.644},
+          center: {lat: randomLat, lng: randomLng},
+          zoom: 3
         });
       }
 
